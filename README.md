@@ -20,5 +20,3 @@ Fitur fitur yang terdapat didalam aplikasi ini :
   - mengembalikan buku
   - membayar denda
 
-
-Created by Mangandaralam Sakti - Student At SMKN 1 Jakarta
