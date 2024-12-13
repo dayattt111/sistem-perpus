@@ -1,0 +1,90 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <title>
+   Get started
+  </title>
+  <style>
+   .card {
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      .card img {
+        width: 120px;
+      }
+      .btn {
+        width: 100%;
+      }
+      .video-container {
+        position: relative;
+        width: 50%;
+        height: 100vh;
+        overflow: hidden;
+      }
+      .video-container video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      @media (max-width: 1024px) {
+        .video-container {
+          width: 100%;
+          height: 50vh;
+        }
+        .form-container {
+          width: 100%;
+        }
+      }
+  </style>
+ </head>
+ <body class="flex flex-col lg:flex-row items-center justify-center h-screen bg-cover bg-center relative">
+  <div class="video-container">
+   <video autoplay="" loop="" muted="">
+    <source src="../assets/drone-view.mp4" type="video/mp4"/>
+   </video>
+  </div>
+  <div class="form-container w-full lg:w-1/2 p-5 relative z-10">
+   <div class="flex justify-center items-center">
+    <div class="card w-full lg:w-96 p-5">
+     <img alt="Library logo" class="mx-auto d-block p-2" height="120" src="../assets/logoNav.png" width="120"/>
+     <hr/>
+     <div class="card-body pt-2">
+      <h3 class="card-text text-center">
+       Portal Login Perpustakaan
+      </h3>
+      <p class="card-text text-center">
+       Silahkan pilih halaman login sesuai dengan status Anda
+      </p>
+     </div>
+     <hr/>
+     <div class="card-body pt-2">
+      <h4 class="card-text text-center">
+       Akses Login
+      </h4>
+      <div class="flex flex-col gap-2 p-2">
+       <a class="btn btn-secondary bg-gray-500 text-white py-2 px-4 rounded" href="admin/sign_in.php">
+        Admin
+       </a>
+       <a class="btn btn-primary bg-blue-500 text-white py-2 px-4 rounded mb-2" href="member/sign_in.php">
+        Siswa
+       </a>
+       <hr/>
+       <a class="btn btn-success bg-green-500 text-white py-2 px-4 rounded" href="../index.php">
+        Kembali
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
