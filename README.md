@@ -19,4 +19,3 @@ Fitur fitur yang terdapat didalam aplikasi ini :
   - meminjam buku 
   - mengembalikan buku
   - membayar denda
-
