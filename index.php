@@ -90,33 +90,33 @@
         <div class="col-md-4">
             <div class="card border-info mb-3">
                 <div class="card-header text-center">
-                    Raynaldi
+                Student At Universitas Dipa Makassar
                 </div>
                 <div class="card-body text-center">
-                    <h5 class="card-title">Student At Universitas Dipa Makassar</h5>
-                    <img alt="Profile picture of Mangandaralam Sakti, a student at SMKN 1 Jakarta" class="rounded-circle mt-3 profile-img" height="150" src="assets/adminLogo.png" width="150"/>
+                    <h5 class="card-title">Raynaldi</h5>
+                    <img alt="Mahasiswa Dipanegara Makassar" class="rounded-circle mt-3 profile-img" height="150" src="assets/sigma/raynaldi.jpg" width="150"/>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="card border-info mb-3">
                 <div class="card-header text-center">
-                    Dayat
+                Student At Universitas Dipa Makassar
                 </div>
                 <div class="card-body text-center">
-                    <h5 class="card-title">Student At Universitas Dipa Makassar</h5>
-                    <img alt="Profile picture of Mangandaralam Sakti, a student at SMKN 1 Jakarta" class="rounded-circle mt-3 profile-img" height="150" src="assets/adminLogo.png" width="150"/>
+                    <h5 class="card-title">Hidayat</h5>
+                    <img alt="Mahasiswa Dipanegara Makassar" class="rounded-circle mt-3 profile-img" height="150" src="assets/sigma/dayat.jpg" width="150"/>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="card border-info mb-3">
                 <div class="card-header text-center">
-                    Ridwan
+                Student At Universitas Dipa Makassar
                 </div>
                 <div class="card-body text-center">
-                    <h5 class="card-title">Student At Universitas Dipa Makassar</h5>
-                    <img alt="Profile picture of Mangandaralam Sakti, a student at SMKN 1 Jakarta" class="rounded-circle mt-3 profile-img" height="150" src="assets/adminLogo.png" width="150"/>
+                    <h5 class="card-title">Ridwan</h5>
+                    <img alt="Mahasiswa Dipanegara Makassar" class="rounded-circle mt-3 profile-img" height="150" src="assets/sigma/ridwan.jpg" width="150"/>
                 </div>
             </div>
         </div>

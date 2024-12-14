@@ -55,6 +55,14 @@
         }
         .profile-img {
             border: 5px solid #17a2b8;
+            width: 100px;
+            height: auto;
+            object-fit: cover;
+            transition: 0.3s;
+        }
+        .profile-img:hover {
+          transform: scale(1.7); /* Zoom in saat hover */
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Menambahkan bayangan saat hover */
         }
         .hero {
             height: 100vh; /* Mengatur tinggi hero menjadi 100% dari viewport */

@@ -16,41 +16,11 @@ if(!isset($_SESSION["signIn"]) ) {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
      <script src="https://kit.fontawesome.com/de8de52639.js" crossorigin="anonymous"></script>
      <title>Admin Dashboard</title>
+     <link rel="stylesheet" href="../style/style2.css">
   </head>
   <body>
     
-    <nav class="navbar fixed-top bg-body-tertiary shadow-sm">
-      <div class="container-fluid p-3">
-        <a class="navbar-brand" href="#">
-          <img src="../assets/logoNav.png" alt="logo" width="70px">
-        </a>
-  
-        <div class="dropdown">
-          <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="../assets/adminLogo.png" alt="adminLogo" width="40px">
-          </button>
-        <ul style="margin-left: -7rem;" class="dropdown-menu position-absolute mt-2 p-2">
-          <li>
-            <a class="dropdown-item text-center" href="#">
-            <img src="../assets/adminLogo.png" alt="adminLogo" width="30px">
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item text-center text-secondary" href="#"> <span class="text-capitalize"><?php echo $_SESSION['admin']['nama_admin']; ?></a>
-            </span>
-          </li>
-          <hr>
-          <li>
-            <a class="dropdown-item text-center mb-2" href="#">Akun Terverifikasi <span class="text-primary"><i class="fa-solid fa-circle-check"></i></span></a>
-          </li>
-          <li>
-            <a class="dropdown-item text-center p-2 bg-danger text-light rounded" href="signOut.php">Sign Out <i class="fa-solid fa-right-to-bracket"></i></a>
-          </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    
+  <?php include_once '../design/nav-admin.php' ?>
     <div class="mt-5 p-4">
       <?php
       // Mendapatkan tanggal dan waktu saat ini
